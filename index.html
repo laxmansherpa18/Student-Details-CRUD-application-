@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    <form action="submit-data" method="post" enctype="multipart/form-data">
+        <h2>Student Information Form</h2>
+        <label for="studentName">Student Name:</label><br>
+        <input type="text" id="studentName" name="studentName" required><br><br>
+
+        <label for="rollNo">Roll Number:</label><br>
+        <input type="text" id="rollNo" name="rollNo" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <label for="fatherName">Father's Name:</label><br>
+        <input type="text" id="fatherName" name="fn" required><br><br>
+
+        <label for="image">Upload Image:</label><br>
+        <input type="file" id="image" name="image" accept="image/*" required><br><br>
+		
+		<a href="view.html">
+        <input type="submit" value="Submit"> </a>
+    </form>
+    <a href="view.html">
+        <input type="submit" value="View data"></input>
+    </a>
+
+</body>
+</html>
