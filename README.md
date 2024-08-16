@@ -1,4 +1,4 @@
-Technology used to developer(Java Servlet JDBC MySQL html css JS-fetch apache-tomcat)
+Technology used in development ( Java Servlet JDBC MySQL html css JS-fetch apache-tomcat)
 java/student package(folder) contains all the Java Servlet file
 in the css folder thier is .css file for styling the html page.
 have two html page with name(index.html and view.html) in the view.html the table is create in the run time through the View.java servlet
